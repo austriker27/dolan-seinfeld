@@ -1,0 +1,16 @@
+{
+  "name": "my-website",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.0",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-tailwindcss": "^2.2.32"
+  }
+}
