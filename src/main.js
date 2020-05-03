@@ -13,12 +13,6 @@ export default function(Vue, { router, head, isClient }) {
   head.htmlAttrs = { lang: 'en' }
   head.bodyAttrs = { class: 'antialiased' }
 
-  // Styles
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Great+Vibes|Libre+Baskerville&display=swap',
-  })
-
 // Styles
 head.link.push({
     rel: 'stylesheet',
@@ -28,7 +22,7 @@ head.link.push({
   // Basic meta tags
   head.meta.push({
     name: 'author',
-    content: 'David Lindahl',
+    content: 'Peter B. Dolan',
   })
 
   head.meta.push({
