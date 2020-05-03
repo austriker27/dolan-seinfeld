@@ -1,0 +1,72 @@
+@tailwind base;
+
+
+html {
+  font-size: 18px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  @apply mb-2 font-mono;
+}
+
+h2 {
+  @apply mt-6 text-3xl;
+}
+
+h3 {
+  @apply mt-8 text-xl font-bold;
+}
+
+h4 {
+  @apply mt-6 font-sans text-base font-bold;
+}
+
+p {
+  @apply mb-4 font-mono;
+}
+
+ul {
+  @apply list-disc;
+}
+
+
+strong {
+  @apply font-bold;
+}
+
+
+dt {
+  @apply font-bold;
+}
+
+dd {
+  @apply mb-4;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+.theme-light {
+    --bg-background-primary: white;
+    --bg-background-secondary: #F7FAFC;
+    --bg-background-ternary: #E2E8F0;
+
+    --text-copy-primary: #2D3748;
+    --text-copy-secondary: #4a5568;
+    --text-copy-ternary: green;
+}
+
+.theme-dark {
+    --bg-background-primary: #0D2438;
+    --bg-background-secondary: #102C44;
+    --bg-background-ternary: #1E3951;
+
+    --text-copy-primary: #CBD5E0;
+    --text-copy-secondary: #e2e8f0;
+    --text-copy-ternary: green;
+}
+

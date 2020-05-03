@@ -3,13 +3,15 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/css/base.postcss'
+import '~/assets/css/main.css'
+
 
 export default function(Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
 
   head.htmlAttrs = { lang: 'en' }
-  head.bodyAttrs = { class: 'antialiased font-body font-serif' }
+  head.bodyAttrs = { class: 'antialiased' }
 
   // Styles
   head.link.push({

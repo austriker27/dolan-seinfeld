@@ -34,12 +34,16 @@ if (GOOGLE_ANALYTICS_ID || process.env.GOOGLE_ANALYTICS_ID) {
 }
 
 module.exports = {
-  siteName: 'Seinfeld Script - COVID Edition',
+  siteName: 'The Lockdown',
   // Default titleTemplate is '%s - <siteName>'
   // Overrided here to avoid having 'My Site Name - My Site Name' on homepage
   titleTemplate: '%s',
   // Default is './src/favicon.png'
   icon: './src/assets/img/favicon.png',
-  plugins,
+  plugins: [
+      {
+          use: 'gridsome-plugin-tailwindcss'
+      },
+  ]
 }
 // All configuration options: https://gridsome.org/docs/config
