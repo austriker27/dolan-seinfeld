@@ -33,23 +33,23 @@ head.link.push({
 
   head.meta.push({
     name: 'keywords',
-    content: 'Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS',
+    content: 'Seinfeld,COVID-19,COVID,Coronavirus,Jerry Seinfeld,Gridsome,Vue,Tailwind,Tailwind CSS,JavaScript,HTML,CSS,Vue.js,VueJS',
   })
 
   head.meta.push({
     name: 'description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their various problems.',
   })
 
   // Open Graph + Twitter meta tags
   head.meta.push({
     property: 'og:description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their various problems.',
   })
 
   head.meta.push({
     name: 'twitter:description',
-    content: 'Single page starter template for Gridsome.',
+    content: 'Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their various problems.',
   })
 
   head.meta.push({
@@ -59,12 +59,12 @@ head.link.push({
 
   head.meta.push({
     property: 'og:title',
-    content: 'Tulip - Single Page Gridsome Starter',
+    content: 'The Lockdown - A fan written Seinfeld Script where Coronavirus locks down New York.',
   })
 
   head.meta.push({
     name: 'twitter:title',
-    content: 'Tulip - Single Page Gridsome Starter',
+      content: 'The Lockdown - A fan written Seinfeld Script where Coronavirus locks down New York.',
   })
 
   head.meta.push({
@@ -74,16 +74,16 @@ head.link.push({
 
   head.meta.push({
     name: 'twitter:creator',
-    content: '@uninen',
+    content: '@austriker27',
   })
 
   head.meta.push({
     property: 'og:image',
-    content: ' https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
+    content: ' https://the-lockdown.netlify.app/img/social-preview.png',
   })
 
   head.meta.push({
     name: 'twitter:image',
-    content: 'https://gridsome-starter-tulip.netlify.com/img/social-preview.png',
+    content: 'https://the-lockdown.netlify.app/img/social-preview.png',
   })
 }

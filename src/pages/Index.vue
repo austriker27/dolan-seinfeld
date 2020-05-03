@@ -23,7 +23,7 @@
       /> -->
     </div>
 
-    <h3 class="font-sans font-normal text-center text-1xl md:text-2xl">Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their troubles.</h3>
+    <h3 class="font-sans font-normal text-center text-1xl md:text-2xl">Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their various problems.</h3>
 
     <h5 class="pb-2 font-sans text-xl italic text-center md:text-1xl mb-7">A Seinfeld script written by Peter B. Dolan</h5>
 
