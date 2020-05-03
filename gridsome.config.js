@@ -39,7 +39,7 @@ module.exports = {
   // Overrided here to avoid having 'My Site Name - My Site Name' on homepage
   titleTemplate: '%s',
   // Default is './src/favicon.png'
-  icon: './src/assets/img/favicon.ico',
+  icon: './src/assets/img/favicon-32x32.png',
   plugins: [
       {
           use: 'gridsome-plugin-tailwindcss'
