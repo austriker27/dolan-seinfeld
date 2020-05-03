@@ -71,6 +71,7 @@ export default {
 
 <style scoped>
 .font-seinfeld {
-    background-image: url(~@/assets/img/s-logo-circle.svg)
+    background-image: url(~@/assets/img/s-logo-circle.svg);
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
 }
 </style>
