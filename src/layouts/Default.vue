@@ -1,10 +1,10 @@
 <template>
   <!-- Read how Layouts, Pages, Templates and collections work here: https://gridsome.org/docs/core-concepts/ -->
-  <div class="relative border-t-8 border-red-600 border-solid">
-    <div class="container max-w-3xl px-4 mx-auto bg-background-primary">
+  <div class="relative border-t-8 border-red-600 border-solid bg-background-primary text-copy-primary " :class="theme">
+    <div class="container max-w-3xl px-4 mx-auto">
         <slot />
     </div>
-    <div class="fixed bottom-6 right-6">
+    <div class="fixed bottom-4 right-4">
         <ToggleTheme :theme="theme" @themeChanged="updateTheme"/>
     </div>
   </div>

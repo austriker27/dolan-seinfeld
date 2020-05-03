@@ -51,22 +51,22 @@ dd {
 @tailwind utilities;
 
 .theme-light {
-    --bg-background-primary: white;
+    --bg-background-primary: theme('colors.gray.100');
     --bg-background-secondary: #F7FAFC;
     --bg-background-ternary: #E2E8F0;
 
     --text-copy-primary: #2D3748;
     --text-copy-secondary: #4a5568;
-    --text-copy-ternary: green;
+    --text-copy-ternary: theme('colors.red.600');
 }
 
 .theme-dark {
-    --bg-background-primary: #0D2438;
+    --bg-background-primary: theme('colors.gray.900');
     --bg-background-secondary: #102C44;
     --bg-background-ternary: #1E3951;
 
-    --text-copy-primary: #CBD5E0;
-    --text-copy-secondary: #e2e8f0;
-    --text-copy-ternary: green;
+    --text-copy-primary: theme('colors.gray.100');
+    --text-copy-secondary: theme('colors.gray.100');
+    --text-copy-ternary: theme('colors.yellow.300');
 }
 

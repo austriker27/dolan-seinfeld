@@ -23,9 +23,9 @@
       /> -->
     </div>
 
-    <h2 class="text-center">Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their troubles.</h2>
+    <h3 class="font-sans font-normal text-center text-1xl md:text-2xl">Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their troubles.</h3>
 
-    <p class="pb-2 font-sans text-2xl text-center text-gray-700">A Seinfeld script written by Peter B. Dolan.</p>
+    <h5 class="pb-2 font-sans text-xl italic text-center md:text-1xl mb-7">A Seinfeld script written by Peter B. Dolan</h5>
 
     <p><span style="font-weight: 400;">[Setting: Jerry is sitting in his apartment. Boxes of cereal and various cleaning supplies can be seen stacked in the background. The phone rings. Jerry is sitting on his couch and answers.]</span></p>
  
@@ -483,7 +483,7 @@
       &copy; David Lindahl (<a
         class="text-blue-700 underline"
         href="https://twitter.com/austriker27"
-      >@austriker27</a>) | 2020
+      >@austriker27</a>) | {{ new Date().getFullYear() }}
     </p>
   </Layout>
 </template>
