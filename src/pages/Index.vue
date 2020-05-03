@@ -4,7 +4,7 @@
     <!-- The main container CSS classes are in `src/layouts/Default.vue` -->
     <div class="flex flex-wrap items-center justify-center mt-8 md:mt-16">
       <div class="relative px-4 py-2">
-        <h1 class="block text-5xl text-center text-red-600 bg-center bg-no-repeat bg-contain border-yellow-600 border-solid font-seinfeld sm:text-7xl sm:pr-8 border-b-3" >
+        <h1 class="block text-5xl text-center text-red-600 bg-center bg-no-repeat bg-contain border-yellow-600 border-solid font-seinfeld sm:text-7xl border-b-3" >
           {{ $static.metadata.siteName }}
         </h1>
         <!-- <div class="absolute ">
