@@ -1,5 +1,5 @@
 {
-  "name": "my-website",
+  "name": "seinfeld-script-covid",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
@@ -10,7 +10,12 @@
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
+    "@tailwindcss/ui": "^0.3.0",
     "gridsome": "^0.7.0",
     "gridsome-plugin-tailwindcss": "^2.2.32"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.0",
+    "sass-loader": "^8.0.2"
   }
 }

@@ -17,10 +17,16 @@ export default function(Vue, { router, head, isClient }) {
     href: 'https://fonts.googleapis.com/css?family=Great+Vibes|Libre+Baskerville&display=swap',
   })
 
+// Styles
+head.link.push({
+    rel: 'stylesheet',
+    href: 'https://rsms.me/inter/inter.css',
+})
+
   // Basic meta tags
   head.meta.push({
     name: 'author',
-    content: 'Ville Säävuori',
+    content: 'David Lindahl',
   })
 
   head.meta.push({
