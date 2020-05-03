@@ -73,11 +73,11 @@ head.link.push({
 
   head.meta.push({
     property: 'og:image',
-    content: ' https://the-lockdown.netlify.app/img/social-preview.png',
+    content: 'https://the-lockdown.netlify.app/assets/img/social-preview.jpg',
   })
 
   head.meta.push({
     name: 'twitter:image',
-    content: 'https://the-lockdown.netlify.app/img/social-preview.png',
+    content: 'https://the-lockdown.netlify.app/assets/img/social-preview.jpg',
   })
 }
