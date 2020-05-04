@@ -2,7 +2,7 @@
   <Layout>
     <!-- Replace everything inside this Layout with your own content -->
     <!-- The main container CSS classes are in `src/layouts/Default.vue` -->
-    <div class="flex flex-wrap items-center justify-center mt-8 md:mt-16">
+    <div class="flex flex-wrap items-center justify-center py-4 mt-8">
       <div class="relative px-4 py-2">
         <h1 class="block text-5xl text-center text-red-600 bg-center bg-no-repeat bg-contain border-yellow-600 border-solid font-seinfeld sm:text-7xl border-b-3" >
           {{ $static.metadata.siteName }}
@@ -478,12 +478,20 @@
     </ul> -->
 
     <!-- FOOTER -->
-    <p class="my-4 mb-0 text-xs text-center">
-      Website by David Lindahl (<a
-        class="text-blue-700 underline"
-        href="https://twitter.com/austriker27"
-      >@austriker27</a>) | &copy;  {{ new Date().getFullYear() }}
-    </p>
+    <div class="flex justify-around py-4 ">
+        <p class="mb-0 text-xs">
+        Website by <a class="text-copy-ternary" target="_blank" href="https://davidalindahl.com">David Lindahl</a>(<a
+            class="underline text-copy-ternary"
+            target="_blank"
+            href="https://twitter.com/austriker27"
+        >@austriker27</a>)
+        </p>
+        <!-- <p class="mb-0 text-xs">
+            &copy; {{ new Date().getFullYear() }}
+        </p> -->
+        <a class="mb-0 text-xs" href="https://app.usefathom.com/share/lrocqcxj/the-lockdown.netlify.app">Open Analytics</a>
+
+    </div>
   </Layout>
 </template>
 
