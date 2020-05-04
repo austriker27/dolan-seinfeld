@@ -478,12 +478,11 @@
     </ul> -->
 
     <!-- FOOTER -->
-    <p class="mt-16 mb-8 text-xs text-center">
-      Website by <br />
-      &copy; David Lindahl (<a
+    <p class="my-4 mb-0 text-xs text-center">
+      Website by David Lindahl (<a
         class="text-blue-700 underline"
         href="https://twitter.com/austriker27"
-      >@austriker27</a>) | {{ new Date().getFullYear() }}
+      >@austriker27</a>) | &copy;  {{ new Date().getFullYear() }}
     </p>
   </Layout>
 </template>
