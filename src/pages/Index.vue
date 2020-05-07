@@ -25,7 +25,7 @@
 
     <h3 class="font-sans font-normal text-center text-1xl md:text-2xl">Coronavirus locks down New York as Jerry, Kramer, George and Elaine try and fail at social distancing amidst their various problems.</h3>
 
-    <h5 class="pb-2 font-sans text-xl italic text-center md:text-1xl mb-7">"The Lockdown" -- A Seinfeld script written by Peter B. Dolan</h5>
+    <h5 class="pb-2 font-sans italic text-center text-md md:text-lg mb-7">"The Lockdown" -- A Seinfeld script written by Peter B. Dolan</h5>
 
     <!-- INSERT SCRIPT HERE -->
 <p class="font-normal">[Setting: Jerry is sitting in his apartment. Boxes of cereal and various cleaning supplies can be seen stacked in the background. The phone rings. Jerry is sitting on his couch and answers.]</p>

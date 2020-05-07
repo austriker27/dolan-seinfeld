@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-            seinfeld: ['ITC Fenice Std', ...defaultTheme.fontFamily.serif],
+        seinfeld: ['ITC Fenice Std', ...defaultTheme.fontFamily.serif],
         // body: ['Libre Baskerville', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
         maintitle: ['Great Vibes', 'cursive'],
       },
