@@ -37,19 +37,19 @@ ul {
 @tailwind utilities;
 
 .theme-light {
-    --bg-background-primary: theme('colors.gray.100');
-    --bg-background-secondary: #F7FAFC;
-    --bg-background-ternary: #E2E8F0;
+    --bg-background-primary: theme('colors.white');
+    --bg-background-secondary: theme('colors.gray.100');
+    --bg-background-ternary: theme('colors.gray.200');
 
-    --text-copy-primary: #2D3748;
-    --text-copy-secondary: #4a5568;
+    --text-copy-primary: theme('colors.gray.600');
+    --text-copy-secondary: theme('colors.gray.400');
     --text-copy-ternary: theme('colors.red.600');
 }
 
 .theme-dark {
     --bg-background-primary: theme('colors.gray.900');
-    --bg-background-secondary: #102C44;
-    --bg-background-ternary: #1E3951;
+    --bg-background-secondary: theme('colors.blue.900');
+    --bg-background-ternary: theme('colors.blue.800');
 
     --text-copy-primary: theme('colors.gray.100');
     --text-copy-secondary: theme('colors.gray.100');
