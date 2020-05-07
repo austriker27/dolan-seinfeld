@@ -293,7 +293,7 @@
         <!-- <p class="mb-0 text-xs">
             &copy; {{ new Date().getFullYear() }}
         </p> -->
-        <a class="mb-0 text-xs text-copy-ternary" href="https://app.usefathom.com/share/lrocqcxj/the-lockdown.netlify.app">Open Analytics</a>
+        <a class="mb-0 text-xs text-copy-ternary" href="https://app.usefathom.com/share/lrocqcxj/thelockdown.netlify.app">Open Analytics</a>
 
     </div>
   </Layout>
