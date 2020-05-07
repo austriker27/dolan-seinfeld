@@ -32,20 +32,6 @@ ul {
   @apply list-disc;
 }
 
-
-strong {
-  @apply font-bold;
-}
-
-
-dt {
-  @apply font-bold;
-}
-
-dd {
-  @apply mb-4;
-}
-
 @tailwind components;
 
 @tailwind utilities;
@@ -70,3 +56,27 @@ dd {
     --text-copy-ternary: theme('colors.yellow.300');
 }
 
+
+a {
+    @apply border-b-2;
+    @apply border-transparent;
+    @apply border-solid;
+    transition: border 0.35s ease-in-out;
+}
+
+.theme-light a:hover{
+    border-color: theme('colors.red.600');
+}
+
+.theme-dark a:hover{
+    border-color: theme('colors.yellow.300');
+}
+
+/* a {
+    border-bottom-width: 2px;
+    border-color: transparent;
+    transition: border-bottom 0.25s ease-in-out;
+}
+a:hover {
+    border-color: #0097ff;
+} */

@@ -14,6 +14,11 @@ module.exports = {
         '7xl': '5rem',
       },
         colors: {
+            // generate all classes:
+            primary: 'var(--bg-background-primary)',
+            secondary: 'var(--bg-background-secondary)',
+            ternary: 'var(--bg-background-ternary)',
+            // generate background- colors
             background: {
                 // 'primary': 'white',
                 // 'secondary': '#F7FAFC',
@@ -27,6 +32,7 @@ module.exports = {
                 ternary: 'var(--bg-background-ternary)',
             },
 
+            // generate text-color classes
             copy: {
                 primary: 'var(--text-copy-primary)',
                 secondary: 'var(--text-copy-secondary)',
